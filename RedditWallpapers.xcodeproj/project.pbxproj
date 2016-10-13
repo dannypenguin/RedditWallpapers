@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3015926E1D876A5E00D96917 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3015926D1D876A5E00D96917 /* Social.framework */; };
+		30E156491D86594A0042CE80 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30E156481D86594A0042CE80 /* README.txt */; };
 		30FED3351D849B0600B6E675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED3341D849B0600B6E675 /* AppDelegate.swift */; };
 		30FED3371D849B0600B6E675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED3361D849B0600B6E675 /* ViewController.swift */; };
 		30FED33A1D849B0600B6E675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FED3381D849B0600B6E675 /* Main.storyboard */; };
@@ -15,6 +17,11 @@
 		30FED3421D849B0600B6E675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FED3401D849B0600B6E675 /* LaunchScreen.storyboard */; };
 		30FED34D1D849B0700B6E675 /* RedditWallpapersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED34C1D849B0700B6E675 /* RedditWallpapersTests.swift */; };
 		30FED3581D849B0700B6E675 /* RedditWallpapersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED3571D849B0700B6E675 /* RedditWallpapersUITests.swift */; };
+		30FED3661D849F8600B6E675 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED3651D849F8600B6E675 /* CollectionViewCell.swift */; };
+		30FED3681D849FBB00B6E675 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FED3671D849FBB00B6E675 /* NextViewController.swift */; };
+		39713D16D74E9063B9989E8D /* Pods_RedditWallpapersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6584C4114A810133C9BA15E6 /* Pods_RedditWallpapersTests.framework */; };
+		51D8E975C04F824BD07BAF53 /* Pods_RedditWallpapersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7710B414796EDCE0DD813B3 /* Pods_RedditWallpapersUITests.framework */; };
+		E71BA36C458C24B8C833131B /* Pods_RedditWallpapers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE38B9C0CEBF394605D06F60 /* Pods_RedditWallpapers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3015926D1D876A5E00D96917 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		30E156481D86594A0042CE80 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		30FED3311D849B0600B6E675 /* RedditWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FED3341D849B0600B6E675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FED3361D849B0600B6E675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		30FED3531D849B0700B6E675 /* RedditWallpapersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditWallpapersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FED3571D849B0700B6E675 /* RedditWallpapersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditWallpapersUITests.swift; sourceTree = "<group>"; };
 		30FED3591D849B0700B6E675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FED3651D849F8600B6E675 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		30FED3671D849FBB00B6E675 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		3C365FE57D0F9FA74CE4A910 /* Pods-RedditWallpapersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapersUITests/Pods-RedditWallpapersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		494389727608E5AE945EF9D4 /* Pods-RedditWallpapers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapers.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapers/Pods-RedditWallpapers.release.xcconfig"; sourceTree = "<group>"; };
+		533175949807B78BF62AD0CE /* Pods-RedditWallpapersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapersTests/Pods-RedditWallpapersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6584C4114A810133C9BA15E6 /* Pods_RedditWallpapersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedditWallpapersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805DDC38D3E8210E4A87E866 /* Pods-RedditWallpapersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapersTests/Pods-RedditWallpapersTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE38B9C0CEBF394605D06F60 /* Pods_RedditWallpapers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedditWallpapers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9FD6873B9179E42422D1C7 /* Pods-RedditWallpapersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapersUITests/Pods-RedditWallpapersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7710B414796EDCE0DD813B3 /* Pods_RedditWallpapersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedditWallpapersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542FADB1D092FBCFADD5C43 /* Pods-RedditWallpapers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedditWallpapers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedditWallpapers/Pods-RedditWallpapers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3015926E1D876A5E00D96917 /* Social.framework in Frameworks */,
+				E71BA36C458C24B8C833131B /* Pods_RedditWallpapers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39713D16D74E9063B9989E8D /* Pods_RedditWallpapersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D8E975C04F824BD07BAF53 /* Pods_RedditWallpapersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +107,8 @@
 				30FED34B1D849B0700B6E675 /* RedditWallpapersTests */,
 				30FED3561D849B0700B6E675 /* RedditWallpapersUITests */,
 				30FED3321D849B0600B6E675 /* Products */,
+				472CA7A594531A49ACE97EF0 /* Pods */,
+				55D72DA51B2A323BFEF85943 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +125,11 @@
 		30FED3331D849B0600B6E675 /* RedditWallpapers */ = {
 			isa = PBXGroup;
 			children = (
+				30E156481D86594A0042CE80 /* README.txt */,
 				30FED3341D849B0600B6E675 /* AppDelegate.swift */,
 				30FED3361D849B0600B6E675 /* ViewController.swift */,
+				30FED3651D849F8600B6E675 /* CollectionViewCell.swift */,
+				30FED3671D849FBB00B6E675 /* NextViewController.swift */,
 				30FED3381D849B0600B6E675 /* Main.storyboard */,
 				30FED33E1D849B0600B6E675 /* Assets.xcassets */,
 				30FED3401D849B0600B6E675 /* LaunchScreen.storyboard */,
@@ -128,6 +157,30 @@
 			path = RedditWallpapersUITests;
 			sourceTree = "<group>";
 		};
+		472CA7A594531A49ACE97EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F542FADB1D092FBCFADD5C43 /* Pods-RedditWallpapers.debug.xcconfig */,
+				494389727608E5AE945EF9D4 /* Pods-RedditWallpapers.release.xcconfig */,
+				533175949807B78BF62AD0CE /* Pods-RedditWallpapersTests.debug.xcconfig */,
+				805DDC38D3E8210E4A87E866 /* Pods-RedditWallpapersTests.release.xcconfig */,
+				3C365FE57D0F9FA74CE4A910 /* Pods-RedditWallpapersUITests.debug.xcconfig */,
+				BA9FD6873B9179E42422D1C7 /* Pods-RedditWallpapersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55D72DA51B2A323BFEF85943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3015926D1D876A5E00D96917 /* Social.framework */,
+				AE38B9C0CEBF394605D06F60 /* Pods_RedditWallpapers.framework */,
+				6584C4114A810133C9BA15E6 /* Pods_RedditWallpapersTests.framework */,
+				D7710B414796EDCE0DD813B3 /* Pods_RedditWallpapersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FED35C1D849B0700B6E675 /* Build configuration list for PBXNativeTarget "RedditWallpapers" */;
 			buildPhases = (
+				E1C5FAAB9FF8E80197796A21 /* [CP] Check Pods Manifest.lock */,
 				30FED32D1D849B0600B6E675 /* Sources */,
 				30FED32E1D849B0600B6E675 /* Frameworks */,
 				30FED32F1D849B0600B6E675 /* Resources */,
+				2A888D6934194AA72F09CE27 /* [CP] Embed Pods Frameworks */,
+				B49983EE7D05D6D73A29B40E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FED35F1D849B0700B6E675 /* Build configuration list for PBXNativeTarget "RedditWallpapersTests" */;
 			buildPhases = (
+				0C918C54B8050709AFCC7AB5 /* [CP] Check Pods Manifest.lock */,
 				30FED3441D849B0700B6E675 /* Sources */,
 				30FED3451D849B0700B6E675 /* Frameworks */,
 				30FED3461D849B0700B6E675 /* Resources */,
+				9ECC328155677043673DAFCD /* [CP] Embed Pods Frameworks */,
+				CE6F8C3CC005E8E456F8D818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FED3621D849B0700B6E675 /* Build configuration list for PBXNativeTarget "RedditWallpapersUITests" */;
 			buildPhases = (
+				5D2A0396FF1FA307FB84C942 /* [CP] Check Pods Manifest.lock */,
 				30FED34F1D849B0700B6E675 /* Sources */,
 				30FED3501D849B0700B6E675 /* Frameworks */,
 				30FED3511D849B0700B6E675 /* Resources */,
+				AF79261A79AAFAC23A017573 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +295,7 @@
 			files = (
 				30FED3421D849B0600B6E675 /* LaunchScreen.storyboard in Resources */,
 				30FED33F1D849B0600B6E675 /* Assets.xcassets in Resources */,
+				30E156491D86594A0042CE80 /* README.txt in Resources */,
 				30FED33A1D849B0600B6E675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +316,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C918C54B8050709AFCC7AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A888D6934194AA72F09CE27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedditWallpapers/Pods-RedditWallpapers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2A0396FF1FA307FB84C942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECC328155677043673DAFCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedditWallpapersTests/Pods-RedditWallpapersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF79261A79AAFAC23A017573 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedditWallpapersUITests/Pods-RedditWallpapersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49983EE7D05D6D73A29B40E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedditWallpapers/Pods-RedditWallpapers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6F8C3CC005E8E456F8D818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedditWallpapersTests/Pods-RedditWallpapersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C5FAAB9FF8E80197796A21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30FED32D1D849B0600B6E675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FED3681D849FBB00B6E675 /* NextViewController.swift in Sources */,
 				30FED3371D849B0600B6E675 /* ViewController.swift in Sources */,
 				30FED33D1D849B0600B6E675 /* RedditWallpapers.xcdatamodeld in Sources */,
+				30FED3661D849F8600B6E675 /* CollectionViewCell.swift in Sources */,
 				30FED3351D849B0600B6E675 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +588,7 @@
 		};
 		30FED35D1D849B0700B6E675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F542FADB1D092FBCFADD5C43 /* Pods-RedditWallpapers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedditWallpapers/Info.plist;
@@ -412,6 +600,7 @@
 		};
 		30FED35E1D849B0700B6E675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494389727608E5AE945EF9D4 /* Pods-RedditWallpapers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedditWallpapers/Info.plist;
@@ -423,6 +612,7 @@
 		};
 		30FED3601D849B0700B6E675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533175949807B78BF62AD0CE /* Pods-RedditWallpapersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedditWallpapersTests/Info.plist;
@@ -435,6 +625,7 @@
 		};
 		30FED3611D849B0700B6E675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805DDC38D3E8210E4A87E866 /* Pods-RedditWallpapersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedditWallpapersTests/Info.plist;
@@ -447,6 +638,7 @@
 		};
 		30FED3631D849B0700B6E675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C365FE57D0F9FA74CE4A910 /* Pods-RedditWallpapersUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RedditWallpapersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +650,7 @@
 		};
 		30FED3641D849B0700B6E675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9FD6873B9179E42422D1C7 /* Pods-RedditWallpapersUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RedditWallpapersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +679,7 @@
 				30FED35E1D849B0700B6E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30FED35F1D849B0700B6E675 /* Build configuration list for PBXNativeTarget "RedditWallpapersTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +688,7 @@
 				30FED3611D849B0700B6E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30FED3621D849B0700B6E675 /* Build configuration list for PBXNativeTarget "RedditWallpapersUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +697,7 @@
 				30FED3641D849B0700B6E675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

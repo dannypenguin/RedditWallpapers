@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RedditWallpapers.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RedditWallpapersTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RedditWallpapersUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8ED5C702FF8DD2AAE952BE53A5F86B2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96DAD3319421D957EDA6CB9FA194669F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A8850E72A9027A8BC2F437AEE1D4333</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E712BA8C75683C6AA9681C7DED1B143D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
